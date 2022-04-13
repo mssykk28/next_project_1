@@ -57,6 +57,12 @@ export default function Home() {
                         </p>
                     </a>
                 </div>
+                <Image
+                    src="/images/profile.jpg" // 画像ファイルのルート
+                    height={144} // 正しいアスペクト比の希望サイズ
+                    width={144} // 正しいアスペクト比の希望サイズ
+                    alt="Your Name"
+                />
             </main>
 
             <footer className={styles.footer}>
