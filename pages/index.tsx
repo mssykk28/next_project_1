@@ -1,8 +1,6 @@
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
-import Head from 'next/head'
-import Layout, {siteTitle} from '../src/components/layout'
 import utilStyles from '../styles/utils.module.css'
 
 export default function Home() {
